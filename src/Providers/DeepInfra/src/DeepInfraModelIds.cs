@@ -21,8 +21,8 @@ public enum DeepInfraModelIds
     /// Name: Meta-Llama-3.1-70B-Instruct <br/>
     /// Organization: meta-llama <br/>
     /// Context Length: 131072 <br/>
-    /// Prompt Cost: $0.52/MTok <br/>
-    /// Completion Cost: $0.52/MTok <br/>
+    /// Prompt Cost: $0.35/MTok <br/>
+    /// Completion Cost: $0.35/MTok <br/>
     /// Description: Meta developed and released the Meta Llama 3.1 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8B, 70B and 405B sizes <br/>
     /// HuggingFace Url: <a href="https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct">https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct</a> 
     /// </summary>
@@ -40,6 +40,17 @@ public enum DeepInfraModelIds
     MetaLlama318BInstruct,
 
     /// <summary>
+    /// Name: MiniCPM-Llama3-V-2_5 <br/>
+    /// Organization: openbmb <br/>
+    /// Context Length: 8192 <br/>
+    /// Prompt Cost: $0.34/MTok <br/>
+    /// Completion Cost: $0.34/MTok <br/>
+    /// Description:  <br/>
+    /// HuggingFace Url: <a href="https://huggingface.co/openbmb/MiniCPM-Llama3-V-2_5">https://huggingface.co/openbmb/MiniCPM-Llama3-V-2_5</a> 
+    /// </summary>
+    MinicpmLlama3V25,
+
+    /// <summary>
     /// Name: gemma-2-27b-it <br/>
     /// Organization: google <br/>
     /// Context Length: 4096 <br/>
@@ -54,8 +65,8 @@ public enum DeepInfraModelIds
     /// Name: gemma-2-9b-it <br/>
     /// Organization: google <br/>
     /// Context Length: 4096 <br/>
-    /// Prompt Cost: $0.09/MTok <br/>
-    /// Completion Cost: $0.09/MTok <br/>
+    /// Prompt Cost: $0.06/MTok <br/>
+    /// Completion Cost: $0.06/MTok <br/>
     /// Description: Gemma is a family of lightweight, state-of-the-art open models from Google. The 9B Gemma 2 model delivers class-leading performance, outperforming Llama 3 8B and other open models in its size category. <br/>
     /// HuggingFace Url: <a href="https://huggingface.co/google/gemma-2-9b-it">https://huggingface.co/google/gemma-2-9b-it</a> 
     /// </summary>
@@ -65,8 +76,8 @@ public enum DeepInfraModelIds
     /// Name: dolphin-2.9.1-llama-3-70b <br/>
     /// Organization: cognitivecomputations <br/>
     /// Context Length: 8192 <br/>
-    /// Prompt Cost: $0.59/MTok <br/>
-    /// Completion Cost: $0.59/MTok <br/>
+    /// Prompt Cost: $0.35/MTok <br/>
+    /// Completion Cost: $0.35/MTok <br/>
     /// Description: Dolphin 2.9.1, a fine-tuned Llama-3-70b model. The new model, trained on filtered data, is more compliant but uncensored. It demonstrates improvements in instruction, conversation, coding, and function calling abilities. <br/>
     /// HuggingFace Url: <a href="https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b">https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b</a> 
     /// </summary>
@@ -76,8 +87,8 @@ public enum DeepInfraModelIds
     /// Name: L3-70B-Euryale-v2.1 <br/>
     /// Organization: Sao10K <br/>
     /// Context Length: 8192 <br/>
-    /// Prompt Cost: $0.59/MTok <br/>
-    /// Completion Cost: $0.59/MTok <br/>
+    /// Prompt Cost: $0.35/MTok <br/>
+    /// Completion Cost: $0.35/MTok <br/>
     /// Description: Euryale 70B v2.1 is a model focused on creative roleplay from Sao10k <br/>
     /// HuggingFace Url: <a href="https://huggingface.co/Sao10K/L3-70B-Euryale-v2.1">https://huggingface.co/Sao10K/L3-70B-Euryale-v2.1</a> 
     /// </summary>
@@ -87,8 +98,8 @@ public enum DeepInfraModelIds
     /// Name: Meta-Llama-3-70B-Instruct <br/>
     /// Organization: meta-llama <br/>
     /// Context Length: 8192 <br/>
-    /// Prompt Cost: $0.52/MTok <br/>
-    /// Completion Cost: $0.52/MTok <br/>
+    /// Prompt Cost: $0.35/MTok <br/>
+    /// Completion Cost: $0.35/MTok <br/>
     /// Description: Model Details Meta developed and released the Meta Llama 3 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8 and 70B sizes. <br/>
     /// HuggingFace Url: <a href="https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct">https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct</a> 
     /// </summary>
@@ -98,8 +109,8 @@ public enum DeepInfraModelIds
     /// Name: Qwen2-72B-Instruct <br/>
     /// Organization: Qwen <br/>
     /// Context Length: 32768 <br/>
-    /// Prompt Cost: $0.56/MTok <br/>
-    /// Completion Cost: $0.56/MTok <br/>
+    /// Prompt Cost: $0.35/MTok <br/>
+    /// Completion Cost: $0.35/MTok <br/>
     /// Description: The 72 billion parameter Qwen2 excels in language understanding, multilingual capabilities, coding, mathematics, and reasoning. <br/>
     /// HuggingFace Url: <a href="https://huggingface.co/Qwen/Qwen2-72B-Instruct">https://huggingface.co/Qwen/Qwen2-72B-Instruct</a> 
     /// </summary>
@@ -164,8 +175,8 @@ public enum DeepInfraModelIds
     /// Name: WizardLM-2-8x22B <br/>
     /// Organization: microsoft <br/>
     /// Context Length: 65536 <br/>
-    /// Prompt Cost: $0.63/MTok <br/>
-    /// Completion Cost: $0.63/MTok <br/>
+    /// Prompt Cost: $0.5/MTok <br/>
+    /// Completion Cost: $0.5/MTok <br/>
     /// Description: WizardLM-2 8x22B is Microsoft AI's most advanced Wizard model. It demonstrates highly competitive performance compared to those leading proprietary models. <br/>
     /// HuggingFace Url: <a href="https://huggingface.co/microsoft/WizardLM-2-8x22B">https://huggingface.co/microsoft/WizardLM-2-8x22B</a> 
     /// </summary>
@@ -175,8 +186,8 @@ public enum DeepInfraModelIds
     /// Name: WizardLM-2-7B <br/>
     /// Organization: microsoft <br/>
     /// Context Length: 32768 <br/>
-    /// Prompt Cost: $0.07/MTok <br/>
-    /// Completion Cost: $0.07/MTok <br/>
+    /// Prompt Cost: $0.06/MTok <br/>
+    /// Completion Cost: $0.06/MTok <br/>
     /// Description: WizardLM-2 7B is the smaller variant of Microsoft AI's latest Wizard model. It is the fastest and achieves comparable performance with existing 10x larger open-source leading models <br/>
     /// HuggingFace Url: <a href="https://huggingface.co/microsoft/WizardLM-2-7B">https://huggingface.co/microsoft/WizardLM-2-7B</a> 
     /// </summary>
@@ -197,23 +208,12 @@ public enum DeepInfraModelIds
     /// Name: lzlv_70b_fp16_hf <br/>
     /// Organization: lizpreciatior <br/>
     /// Context Length: 4096 <br/>
-    /// Prompt Cost: $0.59/MTok <br/>
-    /// Completion Cost: $0.59/MTok <br/>
+    /// Prompt Cost: $0.35/MTok <br/>
+    /// Completion Cost: $0.35/MTok <br/>
     /// Description: A Mythomax/MLewd_13B-style merge of selected 70B models  A multi-model merge of several  LLaMA2 70B finetunes for roleplaying and creative work. The goal was to create a model that combines creativity with intelligence for an enhanced experience. <br/>
     /// HuggingFace Url: <a href="https://huggingface.co/lizpreciatior/lzlv_70b_fp16_hf">https://huggingface.co/lizpreciatior/lzlv_70b_fp16_hf</a> 
     /// </summary>
     Lzlv70BFp16Hf,
-
-    /// <summary>
-    /// Name: llava-1.5-7b-hf <br/>
-    /// Organization: llava-hf <br/>
-    /// Context Length: 4096 <br/>
-    /// Prompt Cost: $0.34/MTok <br/>
-    /// Completion Cost: $0.34/MTok <br/>
-    /// Description: LLaVa is a multimodal model that supports vision and language models combined. <br/>
-    /// HuggingFace Url: <a href="https://huggingface.co/llava-hf/llava-1.5-7b-hf">https://huggingface.co/llava-hf/llava-1.5-7b-hf</a> 
-    /// </summary>
-    Llava157BHf,
 
     /// <summary>
     /// Name: Yi-34B-Chat <br/>
@@ -285,8 +285,8 @@ public enum DeepInfraModelIds
     /// Name: Qwen2-7B-Instruct <br/>
     /// Organization: Qwen <br/>
     /// Context Length: 32768 <br/>
-    /// Prompt Cost: $0.07/MTok <br/>
-    /// Completion Cost: $0.07/MTok <br/>
+    /// Prompt Cost: $0.06/MTok <br/>
+    /// Completion Cost: $0.06/MTok <br/>
     /// Description: The 7 billion parameter Qwen2 excels in language understanding, multilingual capabilities, coding, mathematics, and reasoning. <br/>
     /// HuggingFace Url: <a href="https://huggingface.co/Qwen/Qwen2-7B-Instruct">https://huggingface.co/Qwen/Qwen2-7B-Instruct</a> 
     /// </summary>
@@ -390,6 +390,17 @@ public enum DeepInfraModelIds
     /// HuggingFace Url: <a href="https://huggingface.co/google/gemma-1.1-7b-it">https://huggingface.co/google/gemma-1.1-7b-it</a> 
     /// </summary>
     Gemma117BIt,
+
+    /// <summary>
+    /// Name: llava-1.5-7b-hf <br/>
+    /// Organization: llava-hf <br/>
+    /// Context Length: 4096 <br/>
+    /// Prompt Cost: $0.34/MTok <br/>
+    /// Completion Cost: $0.34/MTok <br/>
+    /// Description:  <br/>
+    /// HuggingFace Url: <a href="https://huggingface.co/llava-hf/llava-1.5-7b-hf">https://huggingface.co/llava-hf/llava-1.5-7b-hf</a> 
+    /// </summary>
+    Llava157BHf,
 
     /// <summary>
     /// Name: Llama-2-13b-chat-hf <br/>

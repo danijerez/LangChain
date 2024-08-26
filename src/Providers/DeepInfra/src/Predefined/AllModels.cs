@@ -15,6 +15,11 @@ public class MetaLlama3170BInstructModel(DeepInfraProvider provider) : DeepInfra
 public class MetaLlama318BInstructModel(DeepInfraProvider provider) : DeepInfraModel(provider, DeepInfraModelIds.MetaLlama318BInstruct);
 
 
+/// <inheritdoc cref="DeepInfraModelIds.MinicpmLlama3V25"/>
+/// <param name="provider">Deep Infra Provider Instance</param>
+public class MinicpmLlama3V25Model(DeepInfraProvider provider) : DeepInfraModel(provider, DeepInfraModelIds.MinicpmLlama3V25);
+
+
 /// <inheritdoc cref="DeepInfraModelIds.Gemma227BIt"/>
 /// <param name="provider">Deep Infra Provider Instance</param>
 public class Gemma227BItModel(DeepInfraProvider provider) : DeepInfraModel(provider, DeepInfraModelIds.Gemma227BIt);
@@ -88,11 +93,6 @@ public class Mixtral8X7BInstructV01Model(DeepInfraProvider provider) : DeepInfra
 /// <inheritdoc cref="DeepInfraModelIds.Lzlv70BFp16Hf"/>
 /// <param name="provider">Deep Infra Provider Instance</param>
 public class Lzlv70BFp16HfModel(DeepInfraProvider provider) : DeepInfraModel(provider, DeepInfraModelIds.Lzlv70BFp16Hf);
-
-
-/// <inheritdoc cref="DeepInfraModelIds.Llava157BHf"/>
-/// <param name="provider">Deep Infra Provider Instance</param>
-public class Llava157BHfModel(DeepInfraProvider provider) : DeepInfraModel(provider, DeepInfraModelIds.Llava157BHf);
 
 
 /// <inheritdoc cref="DeepInfraModelIds.Yi34BChat"/>
@@ -173,6 +173,11 @@ public class Codegemma7BItModel(DeepInfraProvider provider) : DeepInfraModel(pro
 /// <inheritdoc cref="DeepInfraModelIds.Gemma117BIt"/>
 /// <param name="provider">Deep Infra Provider Instance</param>
 public class Gemma117BItModel(DeepInfraProvider provider) : DeepInfraModel(provider, DeepInfraModelIds.Gemma117BIt);
+
+
+/// <inheritdoc cref="DeepInfraModelIds.Llava157BHf"/>
+/// <param name="provider">Deep Infra Provider Instance</param>
+public class Llava157BHfModel(DeepInfraProvider provider) : DeepInfraModel(provider, DeepInfraModelIds.Llava157BHf);
 
 
 /// <inheritdoc cref="DeepInfraModelIds.Llama213BChatHf"/>
